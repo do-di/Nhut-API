@@ -1,4 +1,4 @@
- const URL = 'http://127.0.0.1:8000/api';
+ const URL = 'http://api.dongdinh.com/api';
 
 function update(updateData,instance) {
     var responseStatus = axios.post(URL + "/updateSequence/"+instance, updateData)
